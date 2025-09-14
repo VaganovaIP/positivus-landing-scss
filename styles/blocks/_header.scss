@@ -5,6 +5,10 @@
     padding-top: 30px;
   }
 
+  @include mobile{
+    padding-top: 15px;
+  }
+
   &__inner{
     display: flex;
     justify-content: space-between;
@@ -19,6 +23,10 @@
   &__logo{
     @include tablet{
       max-width: 120px;
+    }
+
+    @include mobile{
+      max-width: 144px;
     }
   }
 
