@@ -1,4 +1,8 @@
 .section{
   padding-block: var(--section-padding-y); /*Свойство padding-block определяет внутренний отступ одновременно от начального и конечного краёв элемента по блочной оси.*/
 
+  &-hidden-x{
+    overflow: hidden;
+  }
 }
+
