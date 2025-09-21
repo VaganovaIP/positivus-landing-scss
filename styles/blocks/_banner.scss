@@ -3,6 +3,10 @@
 
   padding-block: var(--bannerImageOffSet); //определяет внутренний отступ одновременно от начального и конечного краёв элемента по блочной оси
 
+  @include tablet{
+    --bannerImageOffSet: 0;
+  }
+
   &__inner{
     display: flex;
     align-items: center;
@@ -17,10 +21,23 @@
     align-items: start;
     row-gap: 26px;
     padding: 60px;
+
+    @include tablet{
+      padding: 50px;
+    }
+
+    @include mobile{
+      row-gap: 20px;
+    }
   }
 
   &__image{
     margin-block: calc(var(--bannerImageOffSet) * -1);
+
+    @include tablet{
+      max-width: 40%;
+      height: auto;
+    }
   }
 
   &__descrpition{
