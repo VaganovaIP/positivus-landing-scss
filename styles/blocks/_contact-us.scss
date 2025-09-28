@@ -3,7 +3,7 @@
   padding: 60px 100px 80px;
   background-color: var(--color-gray);
   border-radius: var(--border-radius-large);
-  overflow: hidden;
+  overflow-x: hidden;
 
   &::after{
     --contactUsImageOffsetY: 62px;
