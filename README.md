@@ -25,9 +25,9 @@
 Скачайте архив с проектом или клонируйте репозиторий:
 ```bash
 git clone https://github.com/VaganovaIP/positivus-landing-scss.git
-
+```bash
 Откройте папку с проектом:
 ```bash
 cd positivus-landing-scss
-
+```bash
 Запустите сайт — просто дважды кликните по файлу index.html или откройте его через браузер.
