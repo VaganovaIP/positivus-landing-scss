@@ -23,11 +23,10 @@
 ## Установка и запуск
 
 Скачайте архив с проектом или клонируйте репозиторий:
-
 ```bash
 git clone https://github.com/VaganovaIP/positivus-landing-scss.git
-Откройте папку с проектом:
 
+Откройте папку с проектом:
 ```bash
 cd positivus-landing-scss
 
